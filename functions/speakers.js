@@ -53,9 +53,8 @@ exports.handler = function(event, context, callback) {
     }
   ]
   const speakers = speakerList.map(s => s.name.toLowerCase())
-  console.log({speakers})
   const index = speakers.findIndex(s => s.includes(name.toLowerCase()))
-  console.log({index})
+ 
   if (index >= 0) {
     const { name, talk, slot } = speakerList[index]
     callback(null, {
