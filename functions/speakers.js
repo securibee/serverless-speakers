@@ -33,7 +33,7 @@ exports.handler = function(event, context, callback) {
     },
     {
       "handle": "d0nutptr",
-      "name": "Nathaniel",
+      "name": "Nathaniel aka Mr. Rust",
       "talk": "Practical Exploitation of Insecure Randomness on V8",
       "slot": "1:30PM – 2:00PM"
     },
@@ -60,6 +60,12 @@ exports.handler = function(event, context, callback) {
       "name": "Kyle Benac",
       "talk": "Getting Started with Android Hacking",
       "slot": "4:05pm - 4:35pm"
+    },
+    {
+      "handle": "jhaddix",
+      "name": "Jason Haddix",
+      "talk": "The Bug Hunter's Methodology 4.0",
+      "slot": "tbd"
     }
   ]
   const speakers = speakerList.map(s => s.handle.toLowerCase())
@@ -67,9 +73,15 @@ exports.handler = function(event, context, callback) {
  
   if (index >= 0 && name.length > 3) {
     const { handle, name, talk, slot } = speakerList[index]
+    let message
+    if (handle === "jhaddix") {
+      message = JSON.stringify({ msg: `${name} (${handle}) sadly cannot make the event. His talk "${talk}" will be rescheduled. twitter.com/${handle}`})
+    } else {
+      message = JSON.stringify({ msg: `${name} (${handle}) will be presenting "${talk}" at ${slot}. twitter.com/${handle}`})
+    }
     callback(null, {
       statusCode: 200,
-      body: JSON.stringify({ msg: `${name} (${handle}) will be presenting "${talk}" at ${slot}. twitter.com/${handle}`})
+      body: message
     })
   } else {
     callback(null, {
