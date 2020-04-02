@@ -2,64 +2,74 @@ exports.handler = function(event, context, callback) {
   const { name } = event.queryStringParameters
   const speakerList =  [
     {
-      "name": "stokfredrik",
+      "handle": "stokfredrik",
+      "name": "STÖK",
       "talk": "From NOOB to MVH: What does it really take",
       "slot": "9:45AM – 10:10AM"
     },
     {
-      "name": "niden",
+      "handle": "niden",
+      "name": "Johnathan Miranda",
       "talk": "Try Harder? Keep Trying! Demystifying the OSCP & OSCE Certifications",
       "slot": "10:15AM – 10:30AM"
     },
     {
-      "name": "TomNomNom",
+      "handle": "TomNomNom",
+      "name": "Tom Hudson",
       "talk": "Bug Bounties With Bash",
       "slot": "11:00AM – 11:55AM"
     },
     {
-      "name": "ChloeMessdaghi",
+      "handle": "ChloeMessdaghi",
+      "name": "Chloé Messdaghi",
       "talk": "Hacker Rights",
       "slot": "12:00PM - 12:30PM"
     },
     {
-      "name": "zseano",
+      "handle": "zseano",
+      "name": "Sean",
       "talk": "Unique mindset - Hacking with zseano",
       "slot": "12:30PM - 1:30PM"
     },
     {
-      "name": "d0nutptr",
+      "handle": "d0nutptr",
+      "name": "Nathaniel",
       "talk": "Practical Exploitation of Insecure Randomness on V8",
       "slot": "1:30PM – 2:00PM"
     },
     {
-      "name": "uraniumhacker",
+      "handle": "uraniumhacker",
+      "name": "Rojan Rijal",
       "talk": "Protecting your internal assets from enterprise misconfigurations",
       "slot": "2:15PM – 3:00PM"
     },
     {
-      "name": "erbbysam",
+      "handle": "erbbysam",
+      "name": "Samuel Erb",
       "talk": "Hostnames: Trials, Tribulations & VHost Misconfigurations",
       "slot": "3:05PM – 3:35PM"
     },
     {
-      "name": "DawnIsabel",
+      "handle": "DawnIsabel",
+      "name": "Dawn Isabel",
       "talk": "iOS Recon with Radare2",
       "slot": "3:35pm - 4:05pm"
     },
     {
-      "name": "B3nac",
+      "handle": "B3nac",
+      "name": "Kyle Benac",
       "talk": "Getting Started with Android Hacking",
       "slot": "4:05pm - 4:35pm"
     }
   ]
-  const speakers = speakerList.map(s => s.name.toLowerCase())
+  const speakers = speakerList.map(s => s.handle.toLowerCase())
   const index = speakers.findIndex(s => s.includes(name.toLowerCase()))
  
   if (index >= 0 && name.length > 3) {
-    const { name, talk, slot } = speakerList[index]
+    const { handle, name, talk, slot } = speakerList[index]
     callback(null, {
       statusCode: 200,
-      body: JSON.stringify({ msg: `${name}'s talk is called "${talk}" and scheduled for [${slot}]`})
+      body: JSON.stringify({ msg: `${name} (${handle}) will be presenting "${talk}" at ${slot}. twitter.com/${handle}`})
     })
   } else {
     callback(null, {
