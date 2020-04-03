@@ -5,61 +5,61 @@ exports.handler = function(event, context, callback) {
       "handle": "stokfredrik",
       "name": "STÖK",
       "talk": "From NOOB to MVH: What does it really take",
-      "slot": "9:45AM – 10:10AM"
+      "slot": "9:45AM – 10:15AM PST"
     },
     {
       "handle": "niden",
       "name": "Johnathan Miranda",
       "talk": "Try Harder? Keep Trying! Demystifying the OSCP & OSCE Certifications",
-      "slot": "10:15AM – 10:30AM"
+      "slot": "10:20AM – 11:00AM PST"
     },
     {
       "handle": "TomNomNom",
       "name": "Tom Hudson",
       "talk": "Bug Bounties With Bash",
-      "slot": "11:00AM – 11:55AM"
+      "slot": "11:00AM – 11:55AM PST"
     },
     {
       "handle": "ChloeMessdaghi",
       "name": "Chloé Messdaghi",
       "talk": "Hacker Rights",
-      "slot": "12:00PM - 12:30PM"
+      "slot": "12:00PM - 12:30PM PST"
     },
     {
       "handle": "zseano",
       "name": "Sean",
       "talk": "Unique mindset - Hacking with zseano",
-      "slot": "12:30PM - 1:30PM"
+      "slot": "12:30PM - 1:00PM PST"
     },
     {
       "handle": "d0nutptr",
       "name": "Nathaniel aka Mr. Rust",
       "talk": "Practical Exploitation of Insecure Randomness on V8",
-      "slot": "1:30PM – 2:00PM"
+      "slot": "1:05PM – 2:35PM PST"
     },
     {
       "handle": "uraniumhacker",
       "name": "Rojan Rijal",
       "talk": "Protecting your internal assets from enterprise misconfigurations",
-      "slot": "2:15PM – 3:00PM"
+      "slot": "2:40PM – 3:15PM PST"
     },
     {
       "handle": "erbbysam",
       "name": "Samuel Erb",
       "talk": "Hostnames: Trials, Tribulations & VHost Misconfigurations",
-      "slot": "3:05PM – 3:35PM"
+      "slot": "3:15PM – 3:35PM PST"
     },
     {
       "handle": "DawnIsabel",
       "name": "Dawn Isabel",
       "talk": "iOS Recon with Radare2",
-      "slot": "3:35pm - 4:05pm"
+      "slot": "3:40PM - 4:10PM PST"
     },
     {
       "handle": "B3nac",
       "name": "Kyle Benac",
       "talk": "Getting Started with Android Hacking",
-      "slot": "4:05pm - 4:35pm"
+      "slot": "4:05PM - 4:40PM PST"
     },
     {
       "handle": "jhaddix",
