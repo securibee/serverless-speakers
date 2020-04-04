@@ -50,16 +50,22 @@ exports.handler = function(event, context, callback) {
       "slot": "3:15PM – 3:35PM PST"
     },
     {
-      "handle": "DawnIsabel",
-      "name": "Dawn Isabel",
-      "talk": "iOS Recon with Radare2",
+      "handle": "ethicalhacker",
+      "name": "ethicalhacker",
+      "talk": "IoT Hacking Basics - Fun with UPnP and a Smart Outlet",
       "slot": "3:40PM - 4:10PM PST"
-    },
+    }
     {
       "handle": "B3nac",
       "name": "Kyle Benac",
       "talk": "Getting Started with Android Hacking",
       "slot": "4:05PM - 4:40PM PST"
+    },
+    {
+      "handle": "DawnIsabel",
+      "name": "Dawn Isabel",
+      "talk": "iOS Recon with Radare2",
+      "slot": "4:45PM - 5:10PM PST"
     },
     {
       "handle": "jhaddix",
