@@ -35,37 +35,37 @@ exports.handler = function(event, context, callback) {
       "handle": "d0nutptr",
       "name": "Nathanial",
       "talk": "Practical Exploitation of Insecure Randomness on V8",
-      "slot": "1:05PM – 2:35PM PDT"
+      "slot": "1:05PM – 1:35PM PDT"
     },
     {
       "handle": "uraniumhacker",
       "name": "Rojan Rijal",
       "talk": "Protecting your internal assets from enterprise misconfigurations",
-      "slot": "2:40PM – 3:15PM PDT"
+      "slot": "1:40PM – 2:15PM PDT"
     },
     {
       "handle": "erbbysam",
       "name": "Samuel Erb",
       "talk": "Hostnames: Trials, Tribulations & VHost Misconfigurations",
-      "slot": "3:15PM – 3:35PM PDT"
+      "slot": "2:15PM – 2:35PM PDT"
     },
     {
       "handle": "ethicalhacker",
       "name": "ethicalhacker",
       "talk": "IoT Hacking Basics - Fun with UPnP and a Smart Outlet",
-      "slot": "3:40PM - 4:10PM PDT"
+      "slot": "2:40PM - 3:10PM PDT"
     },
     {
       "handle": "B3nac",
       "name": "Kyle Benac",
       "talk": "Getting Started with Android Hacking",
-      "slot": "4:05PM - 4:40PM PDT"
+      "slot": "3:15pm - 3:45pm PDT"
     },
     {
       "handle": "DawnIsabel",
       "name": "Dawn Isabel",
       "talk": "iOS Recon with Radare2",
-      "slot": "4:45PM - 5:10PM PDT"
+      "slot": "3:50PM - 4:15PM PDT"
     },
     {
       "handle": "jhaddix",
