@@ -33,7 +33,7 @@ exports.handler = function(event, context, callback) {
     },
     {
       "handle": "d0nutptr",
-      "name": "Nathaniel aka Mr. Rust",
+      "name": "Nathanial",
       "talk": "Practical Exploitation of Insecure Randomness on V8",
       "slot": "1:05PM – 2:35PM PDT"
     },
