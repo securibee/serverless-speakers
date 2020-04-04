@@ -54,7 +54,7 @@ exports.handler = function(event, context, callback) {
       "name": "ethicalhacker",
       "talk": "IoT Hacking Basics - Fun with UPnP and a Smart Outlet",
       "slot": "3:40PM - 4:10PM PST"
-    }
+    },
     {
       "handle": "B3nac",
       "name": "Kyle Benac",
