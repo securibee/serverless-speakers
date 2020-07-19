@@ -4,7 +4,7 @@ Netlify serverless function for nightbot consumption. Initally made for twitch.t
 
 ### Clone the repo
 ```
-git clone https://github.com/securibee/
+git clone https://github.com/securibee/serverless-speakers
 ```
 
 ### Install packages
