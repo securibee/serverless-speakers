@@ -2,6 +2,11 @@ Netlify serverless function for nightbot consumption. Initally made for twitch.t
 
 ## Run locally
 
+### Clone the repo
+```
+git clone https://github.com/securibee/
+```
+
 ### Install packages
 ```
 yarn
